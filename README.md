@@ -45,6 +45,7 @@ PUT    /Baseurl/New Update Booking/<id>
 You may also need to use the following parameters:
 ### POST Create Booking
 https://restful-booker.herokuapp.com/booking/
+```
 Body raw (json)
 {
 	"firstname" : "",
@@ -57,19 +58,22 @@ Body raw (json)
 	},
 	"additionalneeds" : ""
 }
-
+```
 ### GET Get Booking info
 https://restful-booker.herokuapp.com/booking/id
 
 ### POST Create Token
+https://restful-booker.herokuapp.com/auth
+```
 Body raw (json)
 {
 	"username": "admin",
 	"password": "password123"
 }
-
+```
 ### PUT Update Booking info
 https://restful-booker.herokuapp.com/booking/id
+```
 Body raw (json)
 {
 	"firstname" : "",
@@ -82,7 +86,7 @@ Body raw (json)
 	},
 	"additionalneeds" : ""
 }
-
+```
 ### DELETE DeleteBooking
 https://restful-booker.herokuapp.com/booking/id
 
